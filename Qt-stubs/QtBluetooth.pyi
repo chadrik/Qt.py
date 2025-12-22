@@ -1,1 +1,4 @@
-from PySide2.QtBluetooth import *
+if IsPySide6:
+    from PySide6.QtBluetooth import *
+elif IsPySide6:
+    from PySide6.QtBluetooth import *
